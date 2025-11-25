@@ -1,4 +1,5 @@
-# A simple project of tempearature covertor 
+# A simple project of tempearature convertor 
+
 
 print(" 1 - Celsius to Fahrenheit ")
 
