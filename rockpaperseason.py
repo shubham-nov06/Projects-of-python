@@ -18,5 +18,5 @@ while True:
     
     play = input("Want to play again ? (Y/N)").upper()
     if play != "Y":
-        print("Thank you bro for playing")
+        print("Thanks for playing ")
         break
