@@ -3,4 +3,4 @@ options = [ "Rock", "Paper", "Scissors"]
 while True: 
     user = input("Input Rock/Paper/Scissors")
     computer = random.choice(options)
-    print()
+    print(computer)
