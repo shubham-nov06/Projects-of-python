@@ -7,4 +7,5 @@ while True:
     
     if user==computer:
         print("Draw")
-        
+    elif user=="Rock" and comp=="Secssors" or \
+            
