@@ -7,5 +7,6 @@ while True:
     
     if user==computer:
         print("Draw")
-    elif user=="Rock" and comp=="Secssors" or \
-            
+    elif (user=="Rock" and computer=="Secssors") or \
+    (user== "Paper" and computer=="Rock") or \
+    
