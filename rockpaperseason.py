@@ -1,6 +1,6 @@
 import random 
 options = [ "Rock","Paper","Scissors"]
-while true : 
+while True : 
     user = input("Input Rock/Paper/Scissors")
     computer = random.choice(options)
     
