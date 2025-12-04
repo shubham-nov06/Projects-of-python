@@ -15,7 +15,7 @@ else :
     print("You loose")
     
     
-play = input("Want to play again ? ").lower()
+play = input("Want to play again ? (Y/N)").lower()
 if play!= "Y":
     print("Thank you bro for playing")
     break
