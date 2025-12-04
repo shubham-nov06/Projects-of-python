@@ -5,3 +5,6 @@ while True:
     computer = random.choice(options)
     print("Computer",computer)
     
+    if user==computer:
+        print("Draw")
+        
