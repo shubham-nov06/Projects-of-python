@@ -11,4 +11,7 @@ while True:
     (user== "Paper" and computer=="Rock") or \
     (user == "Scissors" and computer=="Paper"):
         print("You won the game bro")
-
+else :
+    print("You loose")
+    play = input("Want to play again ? ").upper
+    
