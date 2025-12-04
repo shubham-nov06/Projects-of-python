@@ -5,9 +5,9 @@ while True:
     computer = random.choice(options)
     print("Computer",computer)
     
-    if user==computer:
+if user==computer:
         print("Draw")
-    elif (user=="Rock" and computer=="Scissors") or \
+elif (user=="Rock" and computer=="Scissors") or \
     (user== "Paper" and computer=="Rock") or \
     (user == "Scissors" and computer=="Paper"):
         print("You won the game bro")
