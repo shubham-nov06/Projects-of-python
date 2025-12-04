@@ -13,8 +13,9 @@ elif (user=="Rock" and computer=="Scissors") or \
         print("You won the game bro")
 else :
     print("You loose")
-    play = input("Want to play again ? ").lower()
-
+    
+    
+play = input("Want to play again ? ").lower()
 if play!= "Y":
-print("Thank you bro for playing")
+    print("Thank you bro for playing")
     break
