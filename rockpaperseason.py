@@ -4,6 +4,7 @@ while True:
     user = input("Input Rock/Paper/Scissors = ").upper()
     if user != options :
         print("invalid input")
+        break
     computer = random.choice(options)
     print("Computer", computer)
     
