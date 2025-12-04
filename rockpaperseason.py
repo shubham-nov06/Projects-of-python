@@ -1,7 +1,7 @@
 import random 
 options = [ "Rock", "Paper", "Scissors"]
 while True: 
-    user = input("Input Rock/Paper/Scissors = ")
+    user = input("Input Rock/Paper/Scissors = ").upper()
     
     computer = random.choice(options)
     print("Computer", computer)
@@ -16,7 +16,7 @@ while True:
     else:
         print("You loose")
     
-    play = input("Want to play again ? (Y/N)")
+    play = input("Want to play again ? (Y/N)").upper()
     if play != "Y":
         print("Thank you bro for playing")
         break
