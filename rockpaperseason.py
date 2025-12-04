@@ -9,4 +9,6 @@ while True:
         print("Draw")
     elif (user=="Rock" and computer=="Secssors") or \
     (user== "Paper" and computer=="Rock") or \
-    
+    (user == "Scissors" and computer=="Paper"):
+        print("You won the game bro")
+
