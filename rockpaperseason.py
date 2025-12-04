@@ -13,7 +13,7 @@ while True:
         print("You won the game bro")
 else :
     print("You loose")
-    play = input("Want to play again ? ").upper()
+    play = input("Want to play again ? ").lower()
 
 if play!= "Y":
 break
