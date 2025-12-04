@@ -14,7 +14,7 @@ while True:
         print("You won the game bro")
         
     else:
-     print("You loose")
+        print("You loose")
     
     play = input("Want to play again ? (Y/N)")
     if play != "Y":
