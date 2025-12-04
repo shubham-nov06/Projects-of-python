@@ -17,4 +17,3 @@ else:
 play = input("Want to play again ? (Y/N)")
 if play != "Y":
     print("Thank you bro for playing")
-    break
