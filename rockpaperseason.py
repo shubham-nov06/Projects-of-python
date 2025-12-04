@@ -2,7 +2,8 @@ import random
 options = [ "Rock", "Paper", "Scissors"]
 while True: 
     user = input("Input Rock/Paper/Scissors = ").upper()
-    
+    if user != input() :
+        print("invalid input")
     computer = random.choice(options)
     print("Computer", computer)
     
