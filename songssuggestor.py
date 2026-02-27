@@ -4,3 +4,4 @@ mood_songs = {
 }
 
 
+self.
