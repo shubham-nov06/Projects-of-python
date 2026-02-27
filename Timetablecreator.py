@@ -1,3 +1,7 @@
+# This Python code snippet is taking user input for subject names separated by commas and the total
+# number of hours available for studying. It then calculates the number of hours per subject based on
+# the total hours and the number of subjects entered. Finally, it prints out a study plan showing the
+# distribution of hours for each subject.
 subject = input("Enter the subject name spereatd with , ")
 total_hours = float(input("Enter the number of hours you have "))
 subject_list = subject.split(",")
