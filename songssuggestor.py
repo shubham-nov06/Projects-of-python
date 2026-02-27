@@ -12,3 +12,4 @@ if mood in mood_songs :
     for song in mood_songs[mood] :
         print("=" , song )
     
+else: print("Not a valid input ")
