@@ -1,3 +1,4 @@
+# This Python code is a simple number guessing game. Here's a breakdown of what it does:
 # Just a simple guess  the number project 
 
 import random 
