@@ -15,7 +15,4 @@ hours_per_subject = total_hours / len(subject_list)
 print("\n Your study plan is = \n ")
 
 for subject in subject_list:
-    print(subject.strip(), " ->  ", round(hours_per_suject, 2) , "hours")
-
-
-
+    print(subject.strip(), " ->  ", round(hours_per_suject, 2), "hours")
