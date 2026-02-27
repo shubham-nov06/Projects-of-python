@@ -10,6 +10,7 @@ mood = str(input("Enter your mood = "))
 if mood in mood_songs :
     print("Recommended songs are = ")
     for song in mood_songs[mood] :
-        print("=" , song )
+        for i in range (song - 1)
+        print(i , song )
     
 else: print("Not a valid input ")
