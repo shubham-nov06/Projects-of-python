@@ -9,7 +9,7 @@ mood = str(input("Enter your mood = "))
 if mood in mood_songs:
     print("Recommended songs are = ")
     songs = mood_songs[mood]
-    
+
     for i in range(len(songs)):
         print(f"{i+1}.{songs[i]}")
 
