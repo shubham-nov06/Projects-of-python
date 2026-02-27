@@ -1,3 +1,4 @@
+# This code is a simple Rock, Paper, Scissors game implemented in Python. Here's a breakdown of what the code does:
 import random
 
 options = ["Rock", "Paper", "Scissors"]
