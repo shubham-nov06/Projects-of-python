@@ -6,3 +6,5 @@ mood_songs = {
     
 }
 
+mood = str(input("Enter your mood = "))
+
