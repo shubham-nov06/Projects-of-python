@@ -9,4 +9,6 @@ mood_songs = {
 mood = str(input("Enter your mood = "))
 if mood in mood_songs :
     print("Recommended songs are = ")
+    for song in mood_songs[mood] :
+        print("=" , song )
     
