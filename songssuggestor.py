@@ -8,8 +8,10 @@ mood_songs = {
 mood = str(input("Enter your mood = "))
 if mood in mood_songs:
     print("Recommended songs are = ")
-    for i in range(len(mood_songs)):
-        print(f"{i+1}.{mood_songs[i]}")
+    songs = mood_songs[mood]
+    
+    for i in range(len(songs)):
+        print(f"{i+1}.{songs[i]}")
 
 else:
     print("Not a valid input ")
