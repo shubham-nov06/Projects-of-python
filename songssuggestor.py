@@ -1,3 +1,6 @@
+# This Python code snippet creates a dictionary called `mood_songs` where each key represents a mood
+# (e.g., "Happy", "Gym", "Romantic", "Sad") and the corresponding value is a list of songs associated
+# with that mood.
 mood_songs = {
     "Happy": [" For a reason ", "  Tere liye ", "Doron Doorn"],
     "Gym": ["Sheesha", "2 Gaz Ka Ghoo", "Putt Jat da"],
