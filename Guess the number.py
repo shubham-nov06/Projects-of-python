@@ -1,25 +1,24 @@
 # This Python code is a simple number guessing game. Here's a breakdown of what it does:
-# Just a simple guess  the number project 
+# Just a simple guess  the number project
 
-import random 
+import random
 
 number = random.randint(1, 100)
 
-guess = 0 
+guess = 0
 
 while guess != number:
-    
+
     guess = int(input("Guess a number between 1-100 = "))
-    
-    if guess < number: 
-        
+
+    if guess < number:
+
         print("Guess larger number = ")
-        
+
     elif guess > number:
-        
+
         print("Guess smaller number = ")
-        
+
     elif guess == number:
-        
+
         print("Good you guessed the right number ")
-    
