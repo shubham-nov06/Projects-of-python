@@ -24,3 +24,6 @@ while guess != number:
         print("Good you guessed the right number ")
 
 
+
+
+
